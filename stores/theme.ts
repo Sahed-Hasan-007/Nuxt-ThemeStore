@@ -10,7 +10,7 @@ export const useThemeStore = defineStore('theme', {
     async loadThemes() {
       const { data } = await useFetch('/api/themes')
       this.themes = data.value || []
-      this.currentTheme = this.themes[0] // default
+      
     },
     setTheme(name: string) {
       const theme = this.themes.find(t => t.name === name)

@@ -16,7 +16,7 @@ watch(() => themeStore.currentTheme, (theme) => {
 
 <template>
   <div class="min-h-screen p-8 bg-theme text-theme transition-colors duration-300">
-    <h1 class="text-3xl font-bold mb-6">🎨 Dynamic Theming in Nuxt 3</h1>
+    <h1 class="text-3xl font-bold mb-6"> Dynamic Theming in Nuxt 3</h1>
     <ThemeSwitcher />
     <ThemeShowcase />
   </div>
